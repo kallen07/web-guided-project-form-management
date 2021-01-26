@@ -25,6 +25,7 @@ function SimpleForm() {
     // it will override whatever the value of name was in formValues
   };
   const submit = (evt) => {
+    evt.preventDefault();
     const newPet = {
       petName: formValues.petName.trim(),
       petType: formValues.petType.trim(),

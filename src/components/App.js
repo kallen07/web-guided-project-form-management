@@ -43,7 +43,7 @@ export default function App() {
       .then((res) => {
         setFriends([newFriend, ...friends]);
         //  d) also on success clear the form
-        
+        setFormValues(initialFormValues);
       })
       .catch((err) => {
         debugger;

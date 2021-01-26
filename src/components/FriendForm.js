@@ -46,7 +46,7 @@ export default function FriendForm(props) {
             onChange={onChange}
             value={values.email}
             placeholder="type an email..."
-            maxLength='30'
+            maxLength="30"
           />
         </label>
 
@@ -56,12 +56,9 @@ export default function FriendForm(props) {
         <label>
           Role
           {/* 🔥 STEP 5 - Make dropdown for role. */}
-          <select 
-            name='role'
-            value={values.role}
-            onChange={onChange}
-          />
-          <option value=''></option>
+          <select name="role" value={values.role} onChange={onChange}>
+            <option value="">-----select role ---</option>
+          </select>
         </label>
 
         <div className="submit">

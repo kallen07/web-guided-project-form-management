@@ -24,7 +24,11 @@ function SimpleForm() {
     // [name] is not an array literal:
     // it will override whatever the value of name was in formValues
   };
-  const submit = (evt) => {};
+  const submit = (evt) => {
+    const newPet = {
+      petName: 
+    }
+  };
 
   return (
     <div className="container">

@@ -6,7 +6,7 @@ import axios from "../axios";
 // 👉 the shape of the state that drives the form
 const initialFormValues = {
   ///// TEXT INPUTS /////
-  username: "Rhiannon",
+  username: "",
   email: "",
   ///// DROPDOWN /////
   role: "",

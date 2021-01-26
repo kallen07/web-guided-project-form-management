@@ -10,7 +10,7 @@ const petsList = [
   { petName: "Goldie", petType: "fish" },
 ];
 
-const initialFormValues = {}
+const initialFormValues = { petName: "", petType: "" };
 
 function SimpleForm() {
   return <div>Ready to start GP!</div>;

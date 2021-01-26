@@ -36,6 +36,14 @@ function SimpleForm() {
           value={formValues.petName}
           onChange={change}
         ></input>
+        <input
+        type="text"
+          name="petType"
+          value={formValues.petName}
+          onChange={change}
+        >
+
+        </input>
       </form>
     </div>
   );

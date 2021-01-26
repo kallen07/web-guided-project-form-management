@@ -29,6 +29,7 @@ function SimpleForm() {
       petName: formValues.petName.trim(),
       petType: formValues.petType.trim(),
     };
+    setPets()
   };
 
   return (

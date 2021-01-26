@@ -41,12 +41,13 @@ export default function App() {
     axios
       .post("fakeapi.com", newFriend)
       .then((res) => {
-        setFriends([newFriend])
+        setFriends([newFriend, ...friends]);
+        //  d) also on success clear the form
+        
       })
       .catch((err) => {
         debugger;
       });
-    //  d) also on success clear the form
   };
 
   useEffect(() => {

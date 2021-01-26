@@ -23,7 +23,8 @@ export default function App() {
     //  It takes in the name of an input and its value, and updates `formValues`
     setFormValues({
       ...formValues,
-    })
+      [inputName]: inputValue,
+    });
   };
 
   const submitForm = () => {

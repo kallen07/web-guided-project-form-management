@@ -56,6 +56,10 @@ export default function FriendForm(props) {
         <label>
           Role
           {/* 🔥 STEP 5 - Make dropdown for role. */}
+          <select 
+            name='role'
+            
+          />
         </label>
 
         <div className="submit">

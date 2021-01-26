@@ -27,6 +27,9 @@ function SimpleForm() {
           </div>
         );
       })}
+      <form>
+        <input type="text" name=''></input>
+      </form>
     </div>
   );
 }

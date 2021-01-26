@@ -15,9 +15,12 @@ const initialFormValues = { petName: "", petType: "" };
 function SimpleForm() {
   // THE STATE
   const [pets, setPets] = useState(petsList);
-  const [formValues, setFormValues] = useState(initialFormValues)
+  const [formValues, setFormValues] = useState(initialFormValues);
 
-  return <div>Ready to start GP!</div>;
+  return <div className="container">
+    <h1>Simple Form</h1>
+    {}
+  </div>;
 }
 
 render(

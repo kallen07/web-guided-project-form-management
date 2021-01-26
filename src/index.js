@@ -29,7 +29,7 @@ function SimpleForm() {
           </div>
         );
       })}
-      <form>
+      <form onSubmit={submit}>
         <input
           type="text"
           name="petName"

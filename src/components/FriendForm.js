@@ -61,6 +61,7 @@ export default function FriendForm(props) {
             value={values.role}
             onChange={onChange}
           />
+          <option value=''></option>
         </label>
 
         <div className="submit">

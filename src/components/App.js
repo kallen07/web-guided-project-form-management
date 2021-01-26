@@ -41,7 +41,7 @@ export default function App() {
     axios
       .post("fakeapi.com", newFriend)
       .then((res) => {
-        
+        setFriends([newFriend])
       })
       .catch((err) => {
         debugger;

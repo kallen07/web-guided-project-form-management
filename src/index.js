@@ -31,6 +31,7 @@ function SimpleForm() {
     };
     // setPets(pets.concat(newPet));
     setPets([...pets, newPet]);
+    setFormValues(initialFormValues);
   };
 
   return (
